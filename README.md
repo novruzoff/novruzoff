@@ -1,6 +1,8 @@
-👋 Hi, I’m @Novruzoff
-👀 I’m interested in Software Development, AI, and Machine Learning
-🌱 I know Python, and I’m currently learning Java, Bash, C, React.js
+• 👋 Hi, I’m @Novruzoff
+
+• 👀 I’m interested in Software Development, AI, and Machine Learning
+
+• 🌱 I know Python, and I’m currently learning Java, Bash, C, React.js
 
 <!--
 **Novruzoff/Novruzoff** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
