@@ -1,4 +1,4 @@
-• 👋 Hi, I’m @Novruzoff
+• 👋 Hi, I’m @novruzoff
 
 • 👀 I’m interested in Software Development, AI, and Machine Learning
 
