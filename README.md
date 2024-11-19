@@ -6,7 +6,7 @@
 ### 💻 What I Do:
 - 🌟 **Frontend & Full-Stack Development**: Skilled in **React.js**, **Java**, **Python**, **C**, and **Bash**, with a focus on building clean and functional interfaces.
 - 🚀 **Web Development**: Designed and maintained websites, including migrating frameworks for improved scalability and user experience.
-- 
+  
 ---
 
 ### 🌱 What I’m Currently Learning:
