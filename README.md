@@ -1,20 +1,21 @@
-• 👋 Hi, I’m @novruzoff
+• 👋 Hi! I'm **Murad Novruzov** (a.k.a @novruzoff)
+   I am a Computer Science student at McGill University, passionate about **Software and Web Development**, and a bit of **Artifical Intelligence**.
 
-• 👀 I’m interested in Software Development, AI, and Machine Learning
+---
 
-• 🌱 I know Python, Java, Bash, C, and React.js
+### 💻 What I Do:
+- 🌟 **Frontend & Full-Stack Development**: Skilled in **React.js**, **Java**, **Python**, **C**, and **Bash**, with a focus on building clean and functional interfaces.
+- 🚀 **Web Development**: Designed and maintained websites, including migrating frameworks for improved scalability and user experience.
+- 
+---
 
-<!--
-**Novruzoff/Novruzoff** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🌱 What I’m Currently Learning:
+- 🧠 **AI and Machine Learning**: Diving into neural networks and natural language processing.
+- 📱 **Swift Development**: Creating apps and preparing for App Store launches.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🤝 Let’s Connect:
+- 🌐 Check out my [Website Portfolio](https://novruzoff.github.io/#/)
+- 💼 Connect on [LinkedIn](https://www.linkedin.com/in/novruzovmurad/)
+- ✉️ Email me at: [murad.novruzov1899@gmail.com]
