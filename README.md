@@ -10,8 +10,8 @@
 ---
 
 ### 🌱 What I’m Currently Learning:
-- 🧠 **AI and Machine Learning**: Diving into neural networks and natural language processing.
 - 📱 **Swift Development**: Creating apps and preparing for App Store launches.
+- 🧠 **AI and Machine Learning**: Diving into neural networks and natural language processing.
 
 ---
 
