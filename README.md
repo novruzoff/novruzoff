@@ -9,7 +9,7 @@ In my free time, I like to delve deeper into **Software and Web Development** an
 # Skills
 
 ### Languages:
-[![My Skills](https://skillicons.dev/icons?i=py,java,cpp,cs,c,js,ts,swift,go,html,css,bash,ocaml,)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,java,cpp,cs,c,js,ts,swift,go,html,css,bash,ocaml)](https://skillicons.dev)
 
 ### Frameworks and Software:
 [![My Skills](https://skillicons.dev/icons?i=react,nextjs,nodejs,aws,tailwind,vercel,vite,mongodb,django,git,githubactions,gitlab,wordpress)](https://skillicons.dev)
