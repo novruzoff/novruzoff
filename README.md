@@ -1,8 +1,5 @@
 # About
-
-Hey, I am Murad, a.k.a **@novruzoff** - Full-Stack Developer and Computer Science Student at McGill University in Canada!
-
-In my free time, I like to delve deeper into **Software and Web Development**.
+**@novruzoff** - Full-Stack Developer and Computer Science Student at McGill University in Canada
   
 ---
 
