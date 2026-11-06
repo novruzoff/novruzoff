@@ -1,0 +1,67 @@
+# Regenerates the profile README stat cards.
+# Based on examples/profile-workflow.yml from https://github.com/pedrocatalao/github-cool-readme
+# The SVGs are force-pushed as a single commit to an orphan `cards` branch, so main's
+# history never grows; README.md points at raw.githubusercontent.com/.../cards/*.svg.
+
+name: Update README cards
+
+on:
+  schedule:
+    - cron: '17 */2 * * *'   # every 2 hours at :17 (off the top of the hour to avoid queue spikes)
+  workflow_dispatch:          # manual "Run workflow" button; needed for the very first run
+
+# Least privilege for the built-in GITHUB_TOKEN: it only needs to push the cards branch.
+# The broader read access (private repos, contributions) comes from CARDS_TOKEN below,
+# which is passed only to the generator step and never used for git.
+permissions:
+  contents: write
+
+# Never let two runs race each other on the force-push to `cards`.
+concurrency:
+  group: cool-readme-cards
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # Checks out main (shallow) so the action can read cool-readme.yml from the repo root.
+      - uses: actions/checkout@v4
+
+      # Generates the SVGs into a temp dir outside the working tree.
+      # SECURITY: this third-party action receives a classic PAT with `repo` scope, so it is
+      # pinned to the exact commit of release v1.3.0 rather than the movable `v1` tag. A
+      # retagged or compromised release cannot run new code with your token. To upgrade,
+      # review the new release, then swap in its commit SHA and update the version comment.
+      - uses: pedrocatalao/github-cool-readme@98a281c29b954cc64ac63da655ea932e2cb62aea # v1.3.0
+        with:
+          token: ${{ secrets.CARDS_TOKEN }}
+          config: cool-readme.yml
+          output: ${{ runner.temp }}/cards
+
+      # Publishes the SVGs on the `cards` branch as one commit, replaced on every change.
+      - name: Publish the cards on the cards branch
+        run: |
+          # Fetch the existing cards branch for comparison; absent on the first run, so ignore failure.
+          git fetch --quiet --depth 1 origin cards:refs/remotes/origin/cards 2>/dev/null || true
+
+          # Start a fresh branch with no parent, so it never accumulates history.
+          git switch --quiet --orphan cards
+
+          # Bring in only the generated SVGs.
+          cp "$RUNNER_TEMP"/cards/*.svg .
+          git add -- *.svg
+
+          # Commit as the GitHub Actions bot (pushed with the built-in GITHUB_TOKEN, not CARDS_TOKEN).
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit --quiet -m 'chore(cards): update README stat cards'
+
+          # Skip the push when nothing changed, so the branch isn't rewritten for no reason.
+          if git rev-parse --quiet --verify origin/cards >/dev/null && git diff --quiet origin/cards HEAD; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git push --force origin cards

@@ -1,0 +1,42 @@
+# Settings for pedrocatalao/github-cool-readme.
+# Lives at the root of the profile repo; the workflow passes this path to the action.
+# Unknown keys fail the run on purpose, so a typo cannot silently fall back to a default.
+
+# Which cards to generate. Each produces a -light.svg and a -dark.svg.
+cards: [summary, languages, contributions, weekly]
+
+# "classic" = GitHub's own fonts, Primer colours and Octicons on a transparent
+# background, following the viewer's light/dark theme (the look in the screenshot).
+style: classic
+
+# What counts toward the totals. Only totals are rendered; private repo names never appear.
+include:
+  private: true   # count private repos owned by this account
+  orgs: false     # leave organization repos out (keeps the token away from company code)
+
+# Classic-card appearance. Transparent and borderless so the cards sit on the
+# profile page like a native GitHub section.
+theme:
+  background: transparent
+  border: false
+  animations: true
+
+# Summary card: GitHub logo inside the ring, active-days percentage in the header.
+summary:
+  ring: github
+
+# Languages card: each repo's language mix weighted by your commits there.
+languages:
+  title: Most used languages
+  count: 6
+  other: true     # fold everything past the top 6 into "Other"
+
+# Merged (and open) PRs to other people's public projects, ranked by stars.
+contributions:
+  title: Notable contributions
+  count: 6        # 3 visible at a time; the rest scroll in a loop
+  includeOpen: true
+
+# Contributions per weekday over the last 12 months.
+weekly:
+  title: Weekly rhythm
