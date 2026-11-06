@@ -12,7 +12,7 @@ style: classic
 # What counts toward the totals. Only totals are rendered; private repo names never appear.
 include:
   private: true   # count private repos owned by this account
-  orgs: false     # leave organization repos out (keeps the token away from company code)
+  orgs: true      # count repos of organizations I belong to (True-Competency, MindVista)
 
 # Classic-card appearance. Transparent and borderless so the cards sit on the
 # profile page like a native GitHub section.
