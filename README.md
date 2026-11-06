@@ -1,8 +1,3 @@
-# About
-**@novruzoff** - Full-Stack Developer and Computer Science Student at McGill University in Canada
-  
----
-
 # Stats
 
 <!--
