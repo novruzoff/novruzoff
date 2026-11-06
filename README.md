@@ -42,6 +42,6 @@
 
 # Contact
 
-- Check out my [Website Portfolio](https://novruzoff.github.io/#/)
+- Check out my [Website Portfolio](https://novruzoff.dev)
 - Connect on [LinkedIn](https://www.linkedin.com/in/novruzovmurad/)
-- Email me at: [murad.novruzov1899@gmail.com](mailto:murad.novruzov1899@gmail.com)
+- Email me at: [murad@novruzoff.dev](mailto:murad@novruzoff.dev)
