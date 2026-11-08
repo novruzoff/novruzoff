@@ -33,10 +33,10 @@
 # Skills
 
 ### Languages:
-[![My Skills](https://skillicons.dev/icons?i=py,java,cpp,cs,c,js,ts,swift,go,html,css,bash,ocaml)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,py,java,swift,c,html,css,bash)](https://skillicons.dev)
 
 ### Frameworks and Software:
-[![My Skills](https://skillicons.dev/icons?i=react,nextjs,nodejs,aws,tailwind,vercel,vite,mongodb,django,git,githubactions,gitlab,wordpress)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,nextjs,nodejs,aws,docker,git,supabase,mongodb,tailwind,vite)](https://skillicons.dev)
 
 ---
 
