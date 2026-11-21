@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="195" viewBox="0 0 450 195" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Notable contributions</title>
+<desc id="desc">dan-moraru/OpenRobotics (2 stars): 4 PRs merged · Apr 2026</desc>
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #f0f6fc; }
+  .label { font-size: 14px; }
+  .value { font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .small { font-size: 12px; }
+  .col { font-size: 11px; fill: #7d8590; letter-spacing: 0.04em; }
+  .secondary { fill: #9198a1; }
+  .muted { fill: #7d8590; }
+  .icon { fill: #9198a1; }
+  .fade { animation: fade 0.45s ease-out both; }
+  .grow { transform-box: fill-box; transform-origin: left center; animation: grow 0.9s cubic-bezier(.2,.7,.2,1) 0.15s both; }
+  .ring { animation: ring 1.2s cubic-bezier(.2,.7,.2,1) 0.2s both; }
+  .pop { transform-box: fill-box; transform-origin: center; animation: pop 0.4s ease-out 0.5s both; }
+  @keyframes fade { from { opacity: 0; transform: translateY(4px); } }
+  @keyframes grow { from { transform: scaleX(0); } }
+  @keyframes pop { from { opacity: 0; transform: scale(0.6); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect x="0.5" y="0.5" width="449" height="194" rx="6" fill="none" stroke="none"/>
+<text x="20" y="28" class="col">NOTABLE CONTRIBUTIONS</text><clipPath id="rows"><rect x="0" y="40" width="450" height="138"/></clipPath><g clip-path="url(#rows)"><g>
+<g transform="translate(20 44)"><g class="fade" style="animation-delay: 200ms"><clipPath id="av0"><circle cx="15" cy="15" r="15"/></clipPath><image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAAAAACreq1xAAADbElEQVR4nOyXW0hcRxzGv71539brtvpgxSKtD1bb2tLS9s2WbV+kLz5UKKVF6EVo17b0hmLVJGLyFpM8hWAgxkCuJASEEEgMCUgUowGRGCMEjBeCiZdk0awnnLPzec5mz3H3zO5LYL9ZZr75z8xvz9mZM7PHrSC5ctKkgClgCpgCGoFuGoN8S3TaNzrg9GR6C4tL33q32gugdoRtAHKX6SglWkVsi5Lzk8NB5X3W1JTPQZQZcKy9lP2j9dq/Qz0VrLzROc5BlMN0g33SeJYWn3/qCq3Nz0ysMJAdaGk6pRr4T2YzqIvkSC1nsR1l62pACY3+v31hFefT1NI9x+4xbln9fMHBQBtjoTMfipBb+75aNsQD/FkMBZAxwaCi9L3CKIBvGDXKah3m0wDBhqe0+PZaiWmf2As7nQbAZDcdUHWpgBb67xwH0EWjpp67dEDlwPYQB008wIjOwd/oANQ108EOMDJduEoHoDWTTgJYIm797y1GgMIfhFkTpR1guRh8o48RAAExaJMBG0B05YlLNOwq5XV0EsCiDq3AYhsjAL6mkQDix2o1Bw6NMQL4aWSA7v3hFRT6RZ+XstIEgPisUStw/SgjwHs0MkD0cF4eMYJKGilg8RGtwII+L2/SSAFR/5WYl3uMvE4jB8Su8PPy7D8G9B1HDljzk5oDx3nSGLdZGSA6fFqB7+fUHMhMFJi3Ryuw/Gf09isFxHcfqznQf0XNoezwINCY6yaPTq7B5lEPgA1Rsw8MTtMJ3e4NAFhnVfqW9dT+AMBj1pIAXFHnZSk6Lg1E/y1ggZVkAJW/gPus2J6UGrExaJ/fL6s5Bs/VTzFkG5hTQwfgwDvhY+kP/zhDid3y2+qKATDddYehxIBoLdcK7FaSBMw54dGAW1EtkkDU/hpzrD0g2ooBub9zFvLupbOSTSAaxblvuYnZBaI7KhIf0HIi/ZVyQMst9J9JOnuP3ipNpDYCB2ltXuFcRE1oa/CjWDzLKxym0fXwdO8Om0IM4MCMODeHvBlux+bK4uzU8EgofG56WiYusp+J+Epl1FJH2gu9dLkaJpXp8LkcYP9Y73pfukxAWnJUd86qPVrtAc3f6D1VTcfmRY/VAkug2W+4L0inJYcnPevVXJ/P0DWndxDAB6waZf5Gn4CcOzengClgCviSAJ8PAIqEAL2RAoCaAAAAAElFTkSuQmCC" width="30" height="30" clip-path="url(#av0)"/><circle cx="15" cy="15" r="14.5" stroke="#3d444d" fill="none"/><text x="42" y="13" class="label"><tspan class="secondary">dan-moraru/</tspan><tspan style="font-weight: 600;">OpenRobotics</tspan></text><text x="42" y="30" class="small muted">4 PRs merged · Apr 2026</text><g class="icon" transform="translate(383.28 8) scale(0.875)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path></g><text x="410" y="20" class="small secondary" style="font-weight: 600;" text-anchor="end">2</text></g></g>
+</g></g>
+</svg>
