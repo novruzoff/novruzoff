@@ -14,16 +14,8 @@
   <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/summary-light.svg" width="400" alt="GitHub stats">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/weekly-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/weekly-light.svg" width="400" alt="Weekly rhythm">
-</picture>
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/streaks-dark.svg">
   <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/streaks-light.svg" width="400" alt="Streaks">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/contributions-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/contributions-light.svg" width="400" alt="Notable contributions">
 </picture>
 </p>
 <!-- cool-readme:end -->
