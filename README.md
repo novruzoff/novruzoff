@@ -1,34 +1,33 @@
-# Stats
-
-<!--
-  Stat cards generated every 2 hours by .github/workflows/cool-readme.yml and served
-  from the orphan `cards` branch. Each <picture> shows the dark SVG on GitHub's dark
-  theme and the light SVG otherwise. Wide cards are 450px, narrow 350px: each pair sits
-  side by side on desktop and stacks on mobile. Keep the two <picture> tags of a row
-  together with no blank line between them.
--->
-
-<!-- Row 1: summary (wide) + languages (narrow) -->
+<!-- cool-readme:start -->
+<!-- Cards by github-cool-readme: https://github.com/pedrocatalao/github-cool-readme -->
+<p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/summary-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/summary-light.svg" width="450" alt="Murad's GitHub stats: commits, pull requests, reviews, issues and stars">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/about-dark.svg">
+  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/about-light.svg" width="400" alt="About">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/languages-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/languages-light.svg" width="350" alt="Murad's most used languages">
+  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/languages-light.svg" width="400" alt="Most used languages">
 </picture>
-
-<!-- Row 2: notable contributions (wide) + weekly rhythm (narrow) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/contributions-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/contributions-light.svg" width="450" alt="Murad's notable contributions to other projects">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/summary-dark.svg">
+  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/summary-light.svg" width="400" alt="GitHub stats">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/weekly-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/weekly-light.svg" width="350" alt="Murad's contributions per weekday">
+  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/weekly-light.svg" width="400" alt="Weekly rhythm">
 </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/streaks-dark.svg">
+  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/streaks-light.svg" width="400" alt="Streaks">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/contributions-dark.svg">
+  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/contributions-light.svg" width="400" alt="Notable contributions">
+</picture>
+</p>
+<!-- cool-readme:end -->
 
----
 
 # Skills
 
@@ -45,37 +44,3 @@
 - Check out my [Website Portfolio](https://novruzoff.dev)
 - Connect on [LinkedIn](https://www.linkedin.com/in/novruzovmurad/)
 - Email me at: [murad@novruzoff.dev](mailto:murad@novruzoff.dev)
-
-<!-- cool-readme:start -->
-<!-- Cards by github-cool-readme: https://github.com/pedrocatalao/github-cool-readme -->
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/summary-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/summary-light.svg" width="400" alt="GitHub stats">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/languages-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/languages-light.svg" width="400" alt="Most used languages">
-</picture>
-</p>
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/contributions-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/contributions-light.svg" width="400" alt="Notable contributions">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/weekly-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/weekly-light.svg" width="400" alt="Weekly rhythm">
-</picture>
-</p>
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/streaks-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/streaks-light.svg" width="400" alt="Streaks">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/about-dark.svg">
-  <img src="https://raw.githubusercontent.com/novruzoff/novruzoff/cards/about-light.svg" width="400" alt="About">
-</picture>
-</p>
-<!-- cool-readme:end -->
